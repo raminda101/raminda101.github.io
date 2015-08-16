@@ -1,0 +1,114 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<title>My First mobile Page!</title>
+
+  <link rel="stylesheet" href="themes/myTheme.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- First Page -->
+
+<div data-role = "page" id = "page1" data-theme="d">
+  <div data-role = "header">
+    <h1> My First Page</h1>
+    </div>
+    
+  <div data-role = "main" class = "ui-content">
+    <h1> Hello World </h1>
+    <p>Welcome to my first page. </p>
+    
+    <p> <a href = "#page2" data-rel="dialog"> Page 2</a> </p>
+    
+    <p>	<a href = "#page3">Lists</a> </p>
+   
+    </div>
+    
+    <div data-role = "footer">
+    <h2>&copy; Raminda Deshapriya 2015</h2>
+    </div>
+    
+</div>
+
+<!-- Second Page -->
+
+<div data-role = "page" id = "page2">
+  <div data-role = "header">
+    <h1> My First Page</h1>
+    </div>
+    
+  <div data-role = "main" class = "ui-content">
+    <h1> Hello World </h1>
+    <p>Welcome to my second page. </p>
+    
+    <a href = "#page1" data-transition = "pop"> Page 1</a>
+    
+    
+
+    </div>
+    
+    <div data-role = "footer">
+    <h2>&copy; Raminda Deshapriya 2015</h2>
+    </div>
+</div>
+    
+    <!-- Third Page -->
+    
+    <div data-role = "page" id = "page3">
+  <div data-role = "header">
+    <h1> My First Page</h1>
+    </div>
+    
+    <div data-role="content" data-theme = "a">
+ 
+ 		<ul data-role="listview" data-inset="true" data-theme = "c">
+        	
+            <li> 
+            	<a href = "#">Text1</a>
+            </li>
+            
+            <li>
+            	<a href = "#">Text2</a>
+            </li>
+            
+            <li>
+            	<a href = "#">Text3</a>
+            </li>
+            
+            
+           	<li data-role="list-divider"> Divide </li>
+            
+            <li>
+            	<a href = "#">Text3</a>
+            </li>
+            
+            <li> Cars
+            	<ul>
+                	<li>Hoda</li>
+                    <li>Ford</li>
+                    <li>Toyota</li>
+                </ul>
+            </li>
+            
+
+         </ul>
+    
+    
+    </div>
+
+
+    <p> <a href = "#page1" data-transition = "pop"> Page 1</a> </p>
+    <div data-role = "footer">
+    <h2>&copy; Raminda Deshapriya 2015</h2>
+    </div>
+</div>
+
+</body>
+</html>
